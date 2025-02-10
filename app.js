@@ -43,4 +43,8 @@ function sortearAmigo() {
     let resultado = document.getElementById('resultado');
     resultado.textContent = 'O amigo sorteado é: ' + nomesParticipantes[amigoSorteado];
     resultado.appendChild(li);
+
+    let amigosInput = document.getElementById('amigo');
+    amigosInput.disabled = true;
+
 }
